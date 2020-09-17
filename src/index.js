@@ -83,7 +83,7 @@ function decode(expr) {
     array.push(expr.slice(i, i + 10));
   }
   for (let item of array) {
-    str += MORSE_TABLE[item];
+    str += MORSE_BINARY[item];
   }
   return str;
 }
